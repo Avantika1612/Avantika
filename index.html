@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion Shop</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffaf5;
+    }
+     .h{
+         display: inline; 
+         margin-left: 10px;
+         width:200px;  
+         alignment-top:center;
+        }
+    header {
+      background-color: rgb(250, 249, 249);
+      color: rgb(10, 9, 9);
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: rgb(8, 8, 8);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .banner {
+      background-color: #fce5cd;
+    }
+
+    .collections {
+      background-color: #fff3e0;
+    }
+
+    .collection-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+
+    .collection {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #e0cfc2;
+      width: 150px;
+    }
+
+    .product {
+      display: inline-block;
+      background: rgb(182, 105, 105);
+      margin: 10px;
+      padding: 15px;
+      width: 250px;
+      box-shadow: 0 0 10px #bbb;
+      border-radius: 10px;
+    }
+    .add-to-cart{
+      background-color:#28a745 ;
+      color:white;
+      padding:10px 16px;
+      border:none;
+      border-radius:5px;
+      cursor:pointer;
+      font-size:16px
+    }
+    .add-to-cart:hover{
+      background-color: #218838;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .about {
+      background-color: #fffaf2;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+
+  <header>
+<img src="images/WhatsApp Image 2025-07-02 at 12.15.13 PM (1).jpeg" alt=" ... " alignment="center" height="172" width="172">
+  <h1 class="h1">Fashion Shop</h1><br><br>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About us</a>
+    <a href="#contact">Contact us</a>
+  </nav>
+</header>
+
+  <!-- Home / Banner -->
+  <section id="home" class="banner">
+    <h1> NEW BRANDS</h1>
+    <h2>Elevate Your Everyday Look</h2>
+  </section>
+  
+  <!-- Categories -->
+  <section class="collections">
+    <h2> Categories</h2>
+    <div class="collection-list">
+      <div class="collection">DRESSES</div>
+      <div class="collection"> JUMPSUITS</div>
+      <div class="collection"> TOPS</div>
+      <div class="collection"> WESTERN WEAR</div>
+      
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products">
+    <h1>CLOTHES VARIETIES</h1>
+    <h2> DRESSES</h2> 
+    <div class="product">
+      <img src=" images/WhatsApp Image 2025-07-22 at 3.03.58 PM.jpeg"alt=" Dresses">
+      
+      <p>999/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-22 at 3.03.59 PM.jpeg" alt="Dresses">
+
+      <p>1,000/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div><br>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-17 at 3.46.01 PM.jpeg"alt=" Dresses">
+      
+      <p>599/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+   
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-22 at 3.19.19 PM.jpeg" alt="Dresses">
+
+      <p>500/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+    <h2>JUMPSUITS</h2>  
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-22 at 3.03.59 PM (1).jpeg"alt=" Jumpsuits">
+    
+      <p>399/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-22 at 3.03.59 PM (2).jpeg" alt="Jumpsuits">
+
+      <p>600/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div><br>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-22 at 3.04.00 PM (2).jpeg"alt=" Jumpsuits">
+      
+      <p>799/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-17 at 3.37.41 PM.jpeg" alt="Jumpsuits">
+
+      <p>900/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+        <h2>TOPS</h2>  
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-17 at 3.55.04 PM.jpeg"alt=" shirts">
+    
+      <p>899/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-17 at 3.55.04 PM (1).jpeg" alt="shirts">
+
+      <p>300/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div><br>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-17 at 3.55.05 PM.jpeg" alt=" shirts">
+    
+      <p>459/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-22 at 2.56.08 PM.jpeg" alt="shirts">
+
+      <p>600/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+     <h2>WESTERN WEAR</h2>  
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-17 at 8.51.47 PM.jpeg"alt=" western wear">
+    
+      <p>899/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-17 at 8.51.46 PM (2).jpeg" alt="western wear">
+
+      <p>300/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div><br>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-22 at 2.55.58 PM.jpeg" alt=" western wear">
+    
+      <p>459/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+    <div class="product">
+      <img src="images/WhatsApp Image 2025-07-17 at 8.51.46 PM.jpeg" alt="western wear">
+
+      <p>600/-rs</p>
+      <button class="add-to-cart">ADD-TO-CART</button>
+    </div>
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p style="max-width: 800px; margin: auto; font-size: 18px; line-height: 1.6; color: #333;">
+    Welcome to <strong>Fashion Shop</strong> – your one-stop destination for the latest trends in clothing.
+    We believe fashion is a way to express your individuality, and we are here to help you do just that.
+    Our collection features stylish and affordable outfits for men, women, and kids.
+    Whether you're looking for casual wear, party wear, or office attire – we’ve got you covered!
+  <br><br>
+    Quality, comfort, and trend-setting designs are at the heart of everything we create.
+    Shop now and refresh your wardrobe with our latest arrivals.
+    <br><br>
+    Clothes, or clothing, are items worn to cover the body, serving purposes like protection from the elements,
+     modesty, and fashion. They are a basic human need and have evolved from simple wraps to the diverse styles we see today,
+     reflecting culture, climate, and personal expression. 
+     <br><br>
+  </p>
+  </section>
+
+  <!-- Contact -->
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Send WhatsApp Message</title>
+  <script>
+    function sendToWhatsApp() {
+      var name = document.getElementById("name").value;
+      var message = document.getElementById("message").value;
+
+      
+      var phoneNumber = "9284156832";
+      
+      var url = "https://wa.me/9284156832?text=" 
+          + encodeURIComponent("Hello, my name is " + name + ". " + message);
+
+
+      window.open(url, '_Self');
+    }
+  </script>
+</head> 
+<body>
+
+  <h2>Contact us</h2>
+
+  <form onsubmit="sendToWhatsApp(); return false;">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" required><br><br>
+
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" required></textarea><br><br>
+
+    <button type="submit">Send on WhatsApp</button>
+  </form>
+
+</body>
+</html>
+    
+      <div class="Contact-info">
+        <h3>FASHION SHOP</h3>
+        <p>📍 Varache galli,Near Sai dairy,tasgaon,sangli, India</p>
+        <p>📞 ‪+91 9284156832‬</p>
+        <p>📧 fashionshop234@gmail.com</p>
+      
+      </div>
+
+    </div>
+  </section>
+  
+<footer>
+<p>Thank you for visiting our website</p>
+</footer>
+</body>
+</html>
